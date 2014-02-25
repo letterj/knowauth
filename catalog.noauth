@@ -1,0 +1,41 @@
+{
+    "access": {
+        "serviceCatalog": [
+            {
+                "endpoints": [
+                    {
+                        "adminURL": "http://127.0.0.1:8776/v1/%(account)s",
+                        "internalURL": "http://127.0.0.1:8776/v1/%(account)s",
+                        "publicURL": "http://127.0.0.1:8776/v1/%(account)s",
+                        "region": "RegionOne"
+                    }
+                ], 
+                "endpoints_links": [], 
+                "name": "VolumeService", 
+                "type": "volume"
+            }
+        ], 
+        "token": {
+            "expires": "2012-04-13T15:55:28Z", 
+            "id": "%(account)s", 
+            "tenant": {
+                "description": null, 
+                "enabled": true, 
+                "id": "%(account)s", 
+                "name": "%(account)s"
+            }
+        }, 
+        "user": {
+            "id": "noauth", 
+            "name": "%(account)s", 
+            "roles": [
+                {
+                    "id": "noauth", 
+                    "name": "admin"
+                }
+            ], 
+            "roles_links": [], 
+            "username": "%(account)s"
+        }
+    }
+}
